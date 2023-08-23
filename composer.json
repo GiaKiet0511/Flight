@@ -1,0 +1,11 @@
+{
+    "name": "website/web-ban-ve-may-bay",
+    "description": "Do an thuc tap",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        }
+    },
+    "require": {}
+}

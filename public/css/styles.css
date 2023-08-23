@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-original-minimalist-blue-sky-white-clouds-sky-background-material-image_271373.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.img_logo {
+  width: 150px;
+}
+.account {
+  position: absolute;
+  display: flex;
+  padding-top: 8px;
+  padding-left: 420px;
+}
+.account li {
+  list-style: none;
+  padding-left: 20px;
+}
+.account li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #e27e0b;
+}
+.account li a:hover {
+  color: #490abd;
+}
+.account_icon {
+  padding: 0.5rem;
+}
+.slogan {
+  color: #390674;
+  margin-top: 10px;
+}
+.navigation {
+  height: 45px;
+  background-color: #00eeff;
+}
+.nav li {
+  display: inline-block;
+  padding-left: 30px;
+}
+.nav li a {
+  color: #000;
+  text-decoration: none;
+  line-height: 45px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.nav li:hover a {
+  background-color: #79e91d;
+  color: #fff;
+}
+.content {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.time_flights,
+.location_start,
+.date_start {
+  clear: both;
+  float: left;
+  padding-left: 30px;
+}
+.time_end,
+.location_end,
+.seat_class1 {
+  float: left;
+  padding-left: 30px;
+}
+.banner_img {
+ clear:both;
+ width: 300px;
+ padding-top: 30px;
+}
+.ticket_banner{
+  float: left;
+}
+.ticket_search {
+  width: 145px;
+  float: left;
+  padding-left: 30px;
+}
+.ticket_flight {
+  width: 145px;
+  background-color: rgb(27, 160, 226);
+  margin-left: 0px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  padding: 4px 16px;
+}
+.ticket {
+  width: 220px;
+  height: 320px;
+  border: 2px solid rgb(27, 160, 226);
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.information input {
+  margin-left: 20px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.start {
+  min-width: 180px;
+  width: 45%;
+}
+.from {
+  min-width: 180px;
+  width: 45%;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 10px;
+}
+.place {
+  padding-left: 10px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.arrive {
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 10px;
+}
+.destination {
+  min-width: 180px;
+  width: 45%;
+}
+.day,
+.seat_class {
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 10px;
+}
+.search_flight {
+  background-color: #00ffff;
+  width: fit-content;
+  cursor: pointer;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  margin-left: 30px;
+}
+.ticket_information {
+  border: 2px solid rgb(27, 160, 226);
+  margin-top: 32px;
+  width: 70%;
+  float: left;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.img_flight img {
+  width: 80px;
+  float: left;
+}
+.name_flight {
+  padding: 10px;
+}
+.price {
+  float: right;
+}
+.click {
+  width: 150px;
+  background-color: rgb(27, 160, 226);
+  padding: 8px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border: none;
+}
+.other_items {
+  float: left;
+  padding-left: 25px;
+}
+.other_items a {
+  text-decoration: none;
+}
+.other_items a:hover {
+  color: #f80808;
+}
+.icon_time_flight img {
+  width: 100px;
+}
+.news_information {
+  float: left;
+}
+.news {
+  width: 150px;
+  background-color: #0780f1;
+  color: #fff;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.hot_news {
+  padding-top: 10px;
+  padding-left: 10px;
+  float: left;
+}
+.img_news img {
+  width: 150px;
+  height: 120px;
+}
+.post h5 {
+  width: 150px;
+  font-size: medium;
+}
+.baggage_regulations {
+  float: left;
+}
+.regulations {
+  width: 200px;
+  background-color: #0780f1;
+  color: #fff;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.news_inf {
+  padding-left: 10px;
+  padding-top: 10px;
+  float: left;
+}
+.footer {
+  clear: both;
+  display: flex;
+  padding-top: 16px;
+  border-top: 4px solid rgb(92, 190, 240);
+  background-color: #00ffff;
+}
+.grid__column-4 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 20%;
+  float: left;
+}
+.footer__heading {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.footer-list {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-item__link {
+  text-decoration: none;
+  font-size: 1rem;
+  color: rgb(41, 19, 241);
+  padding: 2px 0;
+  display: block;
+}
+.footer-item__link:hover {
+  color: #f55b13;
+}
+.footer-item_icon {
+  font-size: 1rem;
+}
